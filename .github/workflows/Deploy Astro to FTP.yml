@@ -1,0 +1,20 @@
+            - name: Deploy Astro to FTP
+  # You may pin to the exact commit or the version.
+  # uses: abelsrzz/astro-ftps-action@5050337542f394fbf57dfdaac1f21d238131f713
+  uses: abelsrzz/astro-ftps-action@v1.0.3
+  with:
+    # FTP Server
+    ftp_host: 
+    # FTP User
+    ftp_user: 
+    # FTP Password
+    ftp_pass: 
+    # Local dir to be uploaded
+    local_dir: # optional, default is ./dist
+    # Remote directory to upload files
+    remote_dir: # default is /public_html
+    # Enable SSL (true/false)
+    use_ssl: # optional, default is false
+    # Force SSL use
+    force_ssl: # optional, default is false
+          
