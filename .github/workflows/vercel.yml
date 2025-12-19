@@ -28,3 +28,7 @@ jobs:
           project-id: ${{ secrets.YOUR_VERCEL_PROJECT_ID }}
           production: ${{ github.ref == 'refs/heads/main' }}
           prebuilt: true # If set to true, build will be performed using GitHub Actions.
+- name: 'notify vercel'
+  uses: 'vercel/repository-dispatch/actions/status@v1'
+  with:
+    name: Vercel - cilpea-vpn-manager: lint
