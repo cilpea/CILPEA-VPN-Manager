@@ -32,7 +32,7 @@ This policy applies to:
 
 ## Security Features in CILPEA
 
-- **Gemini-Powered Audits**: We integrate `gemini-3-flash-preview` to provide real-time CVE scanning and security recommendations.
+- **Gemini-Powered Audits**: We integrate `gemini-1.5-flash` to provide real-time CVE scanning and security recommendations.
 - **AES-256-GCM Encryption**: All tunnels utilize industry-standard Galois/Counter Mode encryption.
 - **Automatic Reconnection**: Mitigates potential data leaks during tunnel instability.
 - **Terminal Isolation**: Logs are sanitized to prevent sensitive credential exposure in the UI.
