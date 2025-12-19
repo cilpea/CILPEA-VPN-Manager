@@ -1,8 +1,10 @@
+
 export enum ConnectionStatus {
   DISCONNECTED = 'DISCONNECTED',
   CONNECTING = 'CONNECTING',
   CONNECTED = 'CONNECTED',
   DISCONNECTING = 'DISCONNECTING',
+  SCANNING = 'SCANNING',
   ERROR = 'ERROR'
 }
 
@@ -25,4 +27,22 @@ export interface VpnStats {
   uptime: string;
   bytesIn: string;
   bytesOut: string;
+}
+
+export interface Vulnerability {
+  id: string;
+  cveId: string;
+  title: string;
+  severity: 'Critical' | 'High' | 'Medium' | 'Low';
+  description: string;
+  recommendation: string;
+}
+
+export interface Certification {
+  id: string;
+  name: string;
+  standard: string;
+  issuer: 'BSI' | 'Deloitte';
+  validUntil?: string;
+  status: 'Active' | 'Verified' | 'Audit Complete';
 }
