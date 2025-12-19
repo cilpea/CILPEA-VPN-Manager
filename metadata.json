@@ -1,0 +1,5 @@
+{
+  "name": "CILPEA VPN Manager",
+  "description": "A modern, secure dashboard for managing OpenVPN connections, monitoring traffic, and viewing system logs.",
+  "requestFramePermissions": []
+}
