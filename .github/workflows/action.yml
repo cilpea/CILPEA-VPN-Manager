@@ -1,0 +1,16 @@
+            - name: Action to update GitHub Action documentation
+  # You may pin to the exact commit or the version.
+  # uses: npalm/action-docs-action@5747a92c96761464cdad985013ffbd4d74f42ee4
+  uses: npalm/action-docs-action@v3.0.0
+  with:
+    # Readme file to update.
+    readme: # optional, default is README.md
+    # THe action definition file.
+    actionFile: # optional, default is action.yml
+    # Include the name header in the updated readme.
+    includeNameHeader: # optional, default is true
+    # TOC level used for the headers. The `includeNameHeader` input is influecing the TOC level, setting `includeNameHeader` to true will increase the TOC level by 1.
+    tocLevel: # optional, default is 2
+    # Line breaks to be used in updated readme (LF|CR|CRLF).
+    lineBreaks: # optional, default is LF
+          
