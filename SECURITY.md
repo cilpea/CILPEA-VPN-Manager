@@ -17,7 +17,7 @@ We take the security of CILPEA VPN Manager seriously. If you believe you have fo
 
 ### Disclosure Process
 
-1.  **Report**: Send an email to `security@cilpea.local` (simulated) or use our encrypted portal.
+1.  **Report**: Send an email to `security@cilpea.com` or use our encrypted portal.
 2.  **Acknowledgment**: You will receive an acknowledgment of your report within 48 hours.
 3.  **Evaluation**: Our team will evaluate the severity and impact of the reported issue.
 4.  **Fix**: We aim to provide a patch for critical vulnerabilities within 7 business days.
@@ -32,7 +32,7 @@ This policy applies to:
 
 ## Security Features in CILPEA
 
-- **Gemini-Powered Audits**: We integrate `gemini-3-flash-preview` to provide real-time CVE scanning and security recommendations.
+- **Gemini-Powered Audits**: We integrate `gemini-1.5-flash` to provide real-time CVE scanning and security recommendations.
 - **AES-256-GCM Encryption**: All tunnels utilize industry-standard Galois/Counter Mode encryption.
 - **Automatic Reconnection**: Mitigates potential data leaks during tunnel instability.
 - **Terminal Isolation**: Logs are sanitized to prevent sensitive credential exposure in the UI.
